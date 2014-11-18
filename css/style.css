@@ -127,6 +127,8 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 700;
   color: #fff;
   background-color: #d9182a;
+  transition: all .2s;
+  -webkit-transition: all .2s;
 }
 
 .btn-transparent {
@@ -1090,4 +1092,19 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
   -moz-animation-name: bobLong;
   -o-animation-name: bobLong;
   animation-name: bobLong;
+}
+
+.split > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 4px solid #CACACA;
+  border-right: 4px solid #CACACA;
+}
+
+.split > div:first-child {
+  border-right: 6px solid #fff;
+}
+
+.split > div:last-child {
+  border-left: 6px solid #fff;
 }

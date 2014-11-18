@@ -1,5 +1,6 @@
-TODO:
+Winter Term Workshop Website:
 =========
-- Cost (full/part time)
-- Location
-- indication of Schedule
+
+Details:
+----
+- When/ Where/ Cost
