@@ -129,7 +129,14 @@ fieldset[disabled] .btn-primary.active {
   background-color: #d9182a;
   transition: all .2s;
   -webkit-transition: all .2s;
+  border-width: 4px;
 }
+
+/*.btn.btn-xl:hover {
+  background-color: #fff;
+  color: #d9182a;
+  border-color: #d9182a;
+}*/
 
 .btn-transparent {
   background:none;
@@ -182,9 +189,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  border-color: #f6bf01;
-  color: #fff;
-  background-color: #fec503;
+  background-color: transparent;
+  color: #d9182a;
+  border-color: #d9182a;
 }
 
 .btn-xl:active,
@@ -1097,8 +1104,8 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 .split > div {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-left: 4px solid #CACACA;
-  border-right: 4px solid #CACACA;
+  border-left: 8px solid #CACACA;
+  border-right: 8px solid #CACACA;
 }
 
 .split > div:first-child {
