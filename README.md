@@ -1,6 +1,4 @@
 Winter Term Workshop Website:
 =========
 
-Details:
-----
-- When/ Where/ Cost
+The main page for the [http://makesomething.cool](makesomething.cool) website.
