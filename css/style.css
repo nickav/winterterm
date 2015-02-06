@@ -1106,6 +1106,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
   padding-bottom: 10px;
   border-left: 8px solid #CACACA;
   border-right: 8px solid #CACACA;
+  border-bottom: 6px solid #CACACA;
 }
 
 .split > div:first-child {
